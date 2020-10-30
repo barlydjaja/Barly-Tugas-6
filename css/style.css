@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+.banner {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+      rgba(211, 211, 211, 0.1),
+      rgba(211, 211, 211, 0.1)
+    ),
+    url("../images/banner.jpg");
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.banner .navbar {
+  margin-top: 4%;
+  position: sticky;
+}
+
+.navbar-brand a {
+  color: #fff;
+}
+
+.navbar-brand a:hover {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.banner .navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 10%;
+}
+
+.banner .collapse {
+  margin-right: 7%;
+}
+
+.banner .collapse .nav a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.banner .collapse .nav a:hover {
+  color: crimson;
+}
+
+.banner .collapse .nav div a {
+  color: black;
+}
+
+.banner .info {
+  margin-top: 15%;
+  transform: translateY(-15%);
+  transform: translateX(-25%);
+}
+
+.banner .info h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.banner .info p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  padding: 0.5rem;
+}
+
+.banner .info a {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+
+.jumbotron .row a {
+  color: black;
+  text-decoration: none;
+}
+
+.jumbotron .row a h4:hover {
+  color: crimson;
+}
+
+.jumbotron .container h1:hover,
+.jumbotron .container p:hover {
+  color: crimson;
+}
+
+/* explore */
+.container-fluid .row .col a {
+  color: white;
+  text-decoration: none;
+}
+
+.container-fluid .row .col a:hover {
+  color: red;
+}
+
+.yogya {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/yogya.jpg");
+}
+
+.bali {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/bali.jpg");
+}
+
+.bromo {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/bromo.jpg");
+}
+
+.raja-ampat {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/raja-ampat.jpg");
+}
+
+.toba {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/toba.jpg");
+}
+
+.jakarta {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/jakarta.jpg");
+}
+
+.jimbaran {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/jimbaran.jpg");
+}
+
+.bandung {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/bandung.jpg");
+}
+
+.surabaya {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/surabaya.jpg");
+}
+
+.batam {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/destination/batam.jpg");
+}
+
+.yogya,
+.bali,
+.bromo,
+.raja-ampat,
+.toba,
+.jakarta,
+.jimbaran,
+.bandung,
+.surabaya,
+.batam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.yogya:hover,
+.bali:hover,
+.bromo:hover,
+.raja-ampat:hover,
+.toba:hover,
+.jakarta:hover,
+.jimbaran:hover,
+.bandung:hover,
+.surabaya:hover,
+.batam:hover {
+  transform: scale(1.35);
+  filter: none;
+  z-index: 10;
+}
